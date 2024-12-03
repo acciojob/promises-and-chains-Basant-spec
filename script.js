@@ -20,7 +20,7 @@ function handleFormSubmission(age, name) {
         resolve(`Welcome, ${name}. You can vote.`);
       } else {
         // Reject promise if age is below 18
-        reject(`Oh sorry, ${name}. You aren't old enough.`);
+        reject(`Oh sorry ${name}. You aren't old enough.`);
       }
     }, 4000); // 4 seconds delay
   });
