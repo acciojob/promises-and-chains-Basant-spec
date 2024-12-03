@@ -9,7 +9,7 @@ function handleFormSubmission(age, name) {
   return new Promise((resolve, reject) => {
     // Validate inputs
     if (!age || !name) {
-      reject('All fields are required!');
+      reject('Please enter valid details');
       return;
     }
 
